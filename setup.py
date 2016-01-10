@@ -14,7 +14,7 @@ setup(
     download_url = 'https://github.com/equidna/FreeSpeech/tarball/0.1',
     keywords = ['fake', 'content', 'creation'],
     packages = ['FreeSpeech'],
-    install_requires=['fake-factory', 'gTTS'],
+    install_requires=['fake-factory'],
     classifiers=['Environment :: Console', 'Development Status :: 4 - Beta',
                     'Intended Audience :: Science/Research',
                     'Programming Language :: Python',

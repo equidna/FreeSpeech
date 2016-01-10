@@ -36,7 +36,7 @@ The number of paragraphs that compose the text. The default value is
 
 #### Example:
 ```
-from FreeSpeech import generateText
+from FreeSpeech.FreeSpeech import generateText
 
 lines_number = 20
 text = generateText(lines_number)
@@ -54,7 +54,7 @@ The output directory of the text file. The default is "./random.txt".
 
 #### Example:
 ```
-from FreeSpeech import saveText
+from FreeSpeech.FreeSpeech import saveText
 
 lines_number = 20
 output = "./text.txt"
@@ -82,8 +82,8 @@ The output directory of the speech file. The default is "./random.mp3".
 
 #### Example:
 ```
-from FreeSpeech import generateText
-from FreeSpeech import generateSpeech
+from FreeSpeech.FreeSpeech import generateText
+from FreeSpeech.FreeSpeech import generateSpeech
 
 text = generateText()
 language = "pt"

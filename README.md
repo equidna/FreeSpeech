@@ -4,14 +4,14 @@ your right to free speech but don't want to bother with proper common
 sense? Then this is the tool for you.  
 It can also be used has a tool to combat solitude and deal with
 isolation.
-* [Instalation](#Instalation)
+* [Installation](#Installation)
  * [Dependencies](#Dependencies)
 * [Usage](#Usage)
  * [generateText](#generateText)
  * [saveText](#saveText)
  * [generateSpeech](#generateSpeech)
 
-## <a name="Instalation"></a>Instalation
+## <a name="Installation"></a>Installation
 Tested only in Linux (Ubuntu). Use pip to install the python package:
 ```
 sudo pip install FreeSeech
